@@ -14,8 +14,8 @@ cursor.execute('''
     CREATE TABLE IF NOT EXISTS store_info (
         street_address_ru TEXT,
         city_ru TEXT,
-        coordinates_X TEXT,
-        coordinates_Y TEXT,
+        coordinates_X REAL,
+        coordinates_Y REAL,
         opening_hours_start_time TIME,
         opening_hours_end_time TIME,
         menu_start_time TIME,
